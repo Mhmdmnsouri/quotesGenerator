@@ -1,0 +1,28 @@
+body{
+    margin: 0!important;
+    padding: 0!important;
+    box-sizing: border-box!important;
+    background:violet!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh!important;
+}
+
+.container{
+    height: 50vh!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    padding: 4vw 8vw;
+    border: 1px solid #ccc;
+    margin-bottom: 3vw;
+}
+
+#quote{
+    font-size: 1.2vw;
+    padding-bottom: 3vw;
+}
